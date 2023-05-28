@@ -13,7 +13,7 @@ pipeline{
         }
         stage("deploying"){
             steps{
-                echo "Deploying to live server"
+                echo "Deploying to live server oooo"
             }
         }
     }
