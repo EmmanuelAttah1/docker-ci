@@ -16,5 +16,10 @@ pipeline{
                 echo "Deploying to live server oooo"
             }
         }
+        stage("clean up"){
+            steps{
+                echo "Cleaning up"
+            }
+        }
     }
 }
